@@ -14,6 +14,10 @@ public class DrawingSurface extends PApplet {
 	
 	// METHODS
 	// Add processing methods here. See the documentation at processing.org for reference.
+	
+	// The setup method is a lot like a constructor - it runs just once at the beginning.
+	// The big difference is that most processing libary methods don't work in the constructor. So, if you need to
+	// do some processing-related action just once at the beginning, do it here.
 	public void setup() {
 		
 	}
