@@ -18,11 +18,12 @@ public class House {
 	}
 
 	
-	public void move(int x, int y) {
+	public void move(int x, int y) {  // This is a "teleport" type of move. It would also be reasonable to create a move() that shifts the House by some amount in a specific direction.
 		this.x = x;
 		this.y = y;
 	}
-	// Add more methods to modify fields. Make sure methods sound like real actions.
+	
+	// Add more methods to modify fields. Make sure methods sound like real actions. Use parameters on your methods instead of including several very similar methods.
 	
 	
 	
